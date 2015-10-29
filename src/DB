@@ -1,0 +1,11 @@
+create database if not exists teste1;
+
+use teste1;
+
+CREATE TABLE `cliente` (
+  `CPF` varchar(15) NOT NULL,
+  `Nome` varchar(45) NOT NULL,
+  `Email` varchar(45) DEFAULT NULL,
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
